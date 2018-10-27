@@ -210,8 +210,9 @@ OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 USE_OPENGL_RENDERER := true
 
 # RIL
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 PROTOBUF_SUPPORTED := true
-#TARGET_RIL_VARIANT := caf
+TARGET_RIL_VARIANT := caf
 
 # SELinux
 #include device/qcom/sepolicy/sepolicy.mk
